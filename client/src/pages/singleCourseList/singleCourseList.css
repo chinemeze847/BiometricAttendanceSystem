@@ -1,0 +1,18 @@
+.single_courseList{
+    display: flex;
+}
+
+.single_courseListWrapper{
+    flex: 6;
+    margin: 0 1rem;
+
+   
+}
+
+@media screen and (max-width: 768px) {
+    .single_courseListWrapper{
+      max-width: 724px;
+      width: 100%;
+
+    }
+  }
